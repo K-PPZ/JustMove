@@ -1,0 +1,41 @@
+/**GLOBAL **/
+
+* {box-sizing: border-box;}
+html {font-size: 62.5%;}
+body {
+	font-size: 1.8rem;
+	line-height: 2;
+	margin: 0 auto;
+    width: 50%;
+    display: flex;
+}
+img {max-width: 100%;}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+ul {
+	padding : 0;
+	list-style: none;
+}
+
+/**GLOBAL**/
+
+
+div {
+    border: solid black 3px;
+    display: inline-block;
+}
+
+#envoie, #reçois {
+    padding: 20%;
+    flex-direction: row;
+}
